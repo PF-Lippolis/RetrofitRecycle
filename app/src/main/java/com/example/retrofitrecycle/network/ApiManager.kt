@@ -13,7 +13,7 @@ class ApiManager {
             .baseUrl(BASE_URL)
             .build()
 
-        val userService = retrofit.create(MovieService::class.java)
+        val movieService = retrofit.create(MovieService::class.java)
     }
 
 }
